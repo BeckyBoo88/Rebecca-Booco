@@ -15,7 +15,7 @@ export default function navbar() {
                     <Link href='https://github.com/BeckyBoo88'> </Link>
                 </li>
 
-                <li class='navList'>
+                <li className='navList'>
                     <Image src='/email.svg' alt='email' height={30} width={30} />
                     <Link href='mailto:rbooco07@gmail.com'> </Link>
                 </li>
