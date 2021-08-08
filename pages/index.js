@@ -23,6 +23,7 @@ export default function Home() {
             Software Engineer | Colorado Native | Life-long Student
           </p>
         </div>
+        
         <hr />
        
         <div id='aboutMe'>
