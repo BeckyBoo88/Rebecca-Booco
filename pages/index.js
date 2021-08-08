@@ -51,34 +51,36 @@ export default function Home() {
             Projects
           </h4>
 
-          <div className={styles.grid}>
-            <a href="https://github.com/BeckyBoo88/The-Colorado-Trail" className={styles.card}>
-              <h1>The Colorado Trail &rarr;</h1>
-              <p>Interactive game similar to Oregon Trail.  Uses: HTML, CSS, and JavaScript</p>
-            </a>
+          <div id='projectStuff'>
+            <div className={styles.grid}>
+              <a href="https://github.com/BeckyBoo88/The-Colorado-Trail" className={styles.card}>
+                <h1>The Colorado Trail &rarr;</h1>
+                <p>Interactive game similar to Oregon Trail.  Uses: HTML, CSS, and JavaScript</p>
+              </a>
 
-            <a href="https://github.com/BeckyBoo88/Find-Your-Trail" className={styles.card}>
-              <h1>Find Your Trail &rarr;</h1>
-              <p>Web App that helps you find national parks in your state. Uses: Sequelize, Express, and EJS</p>
-            </a>
+              <a href="https://github.com/BeckyBoo88/Find-Your-Trail" className={styles.card}>
+                <h1>Find Your Trail &rarr;</h1>
+                <p>Web App that helps you find national parks in your state. Uses: Sequelize, Express, and EJS</p>
+              </a>
 
-            <a
-              href="https://determined-nightingale-c0072d.netlify.app"
-              className={styles.card}
-            >
-              <h1>Viberant &rarr;</h1>
-              <p>Web App to help people find fun activities they can meet people at or create their own event. Uses: React, Bootstrap, Mongo, Mongoose, Express, Node </p>
-            </a>
+              <a
+                href="https://determined-nightingale-c0072d.netlify.app"
+                className={styles.card}
+              >
+                <h1>Viberant &rarr;</h1>
+                <p>Web App to help people find fun activities they can meet people at or create their own event. Uses: React, Bootstrap, Mongo, Mongoose, Express, Node </p>
+              </a>
 
-            <a
-              href="https://github.com/BeckyBoo88/Project-4"
-              className={styles.card}
-            >
-              <h1>Remake of Find Your Trail using Flask and Jinja &rarr;</h1>
-              <p>
-                Taught myself how to use Flask and Jinja but remaking the 'Find Your Trail' project.
-              </p>
-            </a>
+              <a
+                href="https://github.com/BeckyBoo88/Project-4"
+                className={styles.card}
+              >
+                <h1>Remake of Find Your Trail using Flask and Jinja &rarr;</h1>
+                <p>
+                  Taught myself how to use Flask and Jinja but remaking the 'Find Your Trail' project.
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </main>
@@ -129,7 +131,12 @@ export default function Home() {
 
         #findMe {
           margin-top: -4%;
+        }
 
+        #projectStuff {
+          display: flex;
+          justify-content: center;
+          margin-top: -5%;
         }
         
 
