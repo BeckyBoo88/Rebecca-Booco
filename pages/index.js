@@ -58,14 +58,14 @@ export default function Home() {
                 <p>Interactive game similar to Oregon Trail.  Uses: HTML, CSS, and JavaScript</p>
               </a>
 
-              <a href="https://github.com/BeckyBoo88/Find-Your-Trail" className={styles.card}>
+              <a href="https://github.com/BeckyBoo88/Find-Your-Trail" className={styles.card2}>
                 <h1>Find Your Trail &rarr;</h1>
                 <p>Web App that helps you find national parks in your state. Uses: Sequelize, Express, and EJS</p>
               </a>
 
               <a
                 href="https://determined-nightingale-c0072d.netlify.app"
-                className={styles.card}
+                className={styles.card3}
               >
                 <h1>Viberant &rarr;</h1>
                 <p>Web App to help people find fun activities they can meet people at or create their own event. Uses: React, Bootstrap, Mongo, Mongoose, Express, Node </p>
@@ -73,7 +73,7 @@ export default function Home() {
 
               <a
                 href="https://github.com/BeckyBoo88/Project-4"
-                className={styles.card}
+                className={styles.card4}
               >
                 <h1>Remake of Find Your Trail using Flask and Jinja &rarr;</h1>
                 <p>
