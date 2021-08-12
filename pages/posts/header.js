@@ -3,8 +3,8 @@ import styles from '../../styles/Home.module.css'
 export default function Header() {
     return (
       <section className='header'>
-          <div className='topBackground' style={{ background: "url('../public/mtnHike.JPG')"}}>
-            <div id='topDiv' style={{ background: 'rgba(133, 91, 116, 0.2)', padding: '2%', color: 'rgba(218, 219, 192, 1)' }}>
+          <div className='topBackground'>
+            <div id='topDiv'>
               <h1 className={styles.title}>
                 Rebecca Booco
               </h1>
@@ -19,11 +19,4 @@ export default function Header() {
     )
   }
 
-  <style jsx>{`
-    #topDiv {
-      background: rgba(133, 91, 116, 0.2);
-      padding: 2%;
-      color: rgba(218, 219, 192, 1);
-    }
-
-  `}</style>
+ 
