@@ -14,16 +14,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div id='topDiv'>
-          <h1 className={styles.title}>
-            Rebecca Booco
-          </h1>
+        <div id='topBackground'>
+          <div id='topDiv'>
+            <h1 className={styles.title}>
+              Rebecca Booco
+            </h1>
 
-          <p className={styles.description}>
-            Software Engineer | Colorado Native | Life-long Student
-          </p>
+            <p className={styles.description}>
+              Software Engineer | Colorado Native | Life-long Student
+            </p>
+          </div>
         </div>
-        
         <hr />
        
         <div id='aboutMe'>
@@ -53,28 +54,24 @@ export default function Home() {
 
           <div id='projectStuff'>
             <div className={styles.grid}>
-              <a href="https://github.com/BeckyBoo88/The-Colorado-Trail" className={styles.card}>
+              <a href="https://beckyboo88.github.io/The-Colorado-Trail/" target='_blank' className={styles.card}>
                 <h1>The Colorado Trail &rarr;</h1>
                 <p>Interactive game similar to Oregon Trail.  Uses: HTML, CSS, and JavaScript</p>
               </a>
 
-              <a href="https://github.com/BeckyBoo88/Find-Your-Trail" className={styles.card2}>
+              <a href="https://find-your-national-park.herokuapp.com" target='_blank' className={styles.card2}>
                 <h1>Find Your Trail &rarr;</h1>
                 <p>Web App that helps you find national parks in your state. Uses: Sequelize, Express, and EJS</p>
               </a>
 
               <a
-                href="https://determined-nightingale-c0072d.netlify.app"
-                className={styles.card3}
-              >
+                href="https://determined-nightingale-c0072d.netlify.app" target='_blank' className={styles.card3}>
                 <h1>Viberant &rarr;</h1>
                 <p>Web App to help people find fun activities they can meet people at or create their own event. Uses: React, Bootstrap, Mongo, Mongoose, Express, Node </p>
               </a>
 
               <a
-                href="https://github.com/BeckyBoo88/Project-4"
-                className={styles.card4}
-              >
+                href="https://github.com/BeckyBoo88/Project-4" target='_blank' className={styles.card4}>
                 <h1>Remake of Find Your Trail using Flask and Jinja &rarr;</h1>
                 <p>
                   Taught myself how to use Flask and Jinja but remaking the 'Find Your Trail' project.
@@ -90,13 +87,18 @@ export default function Home() {
       <Navbar2 />
 
       <style jsx>{`
-        #topDiv {
-          background: #926680;
-          width: 100%;
-          padding: 10%;
-          color: #dfdfc7;
-        }
-
+       #topDiv {
+        background: rgba(133, 91, 116, 0.2);
+        padding: 2%;
+        color: rgba(218, 219, 192, 1);
+      }
+      
+      #topBackground {
+        background: url('../public/mtnHike.JPG');
+        width: 100%;
+        padding: 10%;
+      }
+        
         #aboutMe {
           width: 100%;
           padding: 4%;

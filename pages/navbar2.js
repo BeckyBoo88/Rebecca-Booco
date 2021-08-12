@@ -5,20 +5,28 @@ export default function navbar() {
     return (
         <nav>
             <ul id='nav'>
-                
                 <li id='navList'>
-                    <Image src='/linkedin.svg' alt='linkedIn' height={50} width={50} />
-                    <Link href='https://www.linkedin.com/in/rebecca-booco/'> </Link>
+                    <Link href='https://www.linkedin.com/in/rebecca-booco/'> 
+                        <a><Image src='/linkedin.svg' alt='linkedIn' target='_blank' height={50} width={50} /></a>
+                    </Link>
                 </li>
 
                 <li id='git'>
-                    <Image src='/github.svg' alt='github' height={30} width={30} />
-                    <Link href='https://github.com/BeckyBoo88'> </Link>
+                    <Link href='https://github.com/BeckyBoo88'>
+                        <Image src='/github.svg' alt='github' target='_blank' height={30} width={30} />
+                    </Link>
                 </li>
 
                 <li className='navList'>
-                    <Image src='/email.svg' alt='email' height={30} width={30} />
-                    <Link href='mailto:rbooco07@gmail.com'> </Link>
+                    <Link href='mailto:rbooco07@gmail.com'>
+                        <Image src='/email.svg' alt='email' target='_blank' height={30} width={30} />
+                    </Link>
+                </li>
+
+                <li className='navList' id='resume'>
+                    <Link href='/Rebecca Booco Resume 2021.pdf'>
+                        <Image src='/resume.svg' alt='resume' target='_blank' height={30} width={30} />
+                    </Link>
                 </li>
 
             </ul>
@@ -28,15 +36,19 @@ export default function navbar() {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    margin-top: -5%;
-                  }
+                    margin-top: -4%;
+                }
 
                 #navList {
-                    margin-left: 800px;
+                    margin-left: 900px;
                 }
 
                 #git {
                     padding-right: 10px;
+                }
+
+                #resume {
+                    padding-left: 10px;
                 }
             
             `}</style>

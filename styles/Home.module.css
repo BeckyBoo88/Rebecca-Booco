@@ -104,7 +104,7 @@
 .card2:active {
   color: #fafafa;
   border-color: #fafafa;
-  background: url('../public/project-2.png');
+  background: url('../public/projectNumber2.png');
   background-size: cover;
   color: transparent;
 }
@@ -193,3 +193,13 @@
   }
 }
 
+
+
+
+
+/* #topDiv {
+  background: #926680;
+  width: 100%;
+  padding: 10%;
+  color: #dfdfc7;
+} */
