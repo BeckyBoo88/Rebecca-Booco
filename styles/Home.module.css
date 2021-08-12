@@ -54,6 +54,65 @@
   margin-top: 3rem;
 }
 
+.header {
+  background: url('../public/mtnHike.JPG');
+}
+
+#topDiv {
+  background: rgba(133, 91, 116, 0.2);
+  padding: 2%;
+  color: rgba(218, 219, 192, 1);
+}
+
+.topBackground {
+  background: url('../public/mtnHike.JPG');
+  width: 100%;
+  padding: 10%;
+}
+  
+#aboutMe {
+  width: 100%;
+  padding: 4%;
+  background: #dfdfc7;
+  color: #926680;
+  }
+
+#meStuff {
+  width: 70%;
+  margin: 0 auto;
+  }
+
+#techSkills {
+  width: 100%;
+  background: #926680;
+  padding: 7%;
+  color: #dfdfc7;
+  margin-top: 2%;
+  }
+
+#skillSet {
+  width: 70%;
+  margin: 0 auto;
+  }
+
+#cardStuff {
+  width: 100%;
+  background: #dfdfc7;
+  color: #926680;
+  margin-top: 2%;
+  }
+
+#findMe {
+  margin-top: -4%;
+  }
+
+#projectStuff {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  }
+
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
