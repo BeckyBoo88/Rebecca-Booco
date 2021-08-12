@@ -14,15 +14,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className='topBackground'>
-          <div id='topDiv'>
-            <h1 className={styles.title}>
-              Rebecca Booco
-            </h1>
+        <div className={styles.topBackground}>
+          <div className={styles.backgroundTop}>
+            <div id='topDiv'>
+              <h1 className={styles.title}>
+                Rebecca Booco
+              </h1>
 
-            <p className={styles.description}>
-              Software Engineer | Colorado Native | Life-long Student
-            </p>
+              <p className={styles.description}>
+                Software Engineer | Colorado Native | Life-long Student
+              </p>
+            </div>
           </div>
         </div>
         <hr />
@@ -91,13 +93,7 @@ export default function Home() {
         background: rgba(133, 91, 116, 0.2);
         padding: 2%;
         color: rgba(218, 219, 192, 1);
-      }
-      
-      .topBackground {
-        background: url('../public/smallMtnPic.png');
-        width: 100%;
-        padding: 10%;
-      }      
+      }     
         
         #aboutMe {
           width: 100%;
@@ -114,7 +110,8 @@ export default function Home() {
         #techSkills {
           width: 100%;
           background: #926680;
-          padding: 7%;
+          padding: 4%;
+          padding-top: 2%;
           color: #dfdfc7;
           margin-top: 2%;
         }

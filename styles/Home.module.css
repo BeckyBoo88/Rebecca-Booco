@@ -45,6 +45,22 @@
   font-size: 1.5rem;
 }
 
+.topBackground {
+  background: url('../public/mtnHike.JPG');
+  width: 100%;
+  padding: 4%;
+}
+
+.backgroundTop {
+  background: url('../public/smallMtnPic.png');
+  height: auto;
+  margin: 0 auto;
+  padding: 10%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
 .grid {
   display: flex;
   align-items: center;
