@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../pages/navbar'
 import Navbar2 from '../pages/navbar2'
+import FirstPost from './posts/first-post'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div id='topBackground'>
+        <div className='topBackground'>
           <div id='topDiv'>
             <h1 className={styles.title}>
               Rebecca Booco
@@ -93,8 +94,8 @@ export default function Home() {
         color: rgba(218, 219, 192, 1);
       }
       
-      #topBackground {
-        background: url('../public/mtnHike.JPG');
+      .topBackground {
+        background: url('../public/mtnHike.JPG')
         width: 100%;
         padding: 10%;
       }
