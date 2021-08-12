@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../pages/navbar'
 import Navbar2 from '../pages/navbar2'
-import FirstPost from './posts/first-post'
 
 export default function Home() {
   return (
@@ -95,10 +94,10 @@ export default function Home() {
       }
       
       .topBackground {
-        background: url('../public/mtnHike.JPG')
+        background: url('../public/smallMtnPic.png');
         width: 100%;
         padding: 10%;
-      }
+      }      
         
         #aboutMe {
           width: 100%;
